@@ -1,0 +1,40 @@
+{
+  "name": "yomiage-kun",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc -p .",
+    "dev": "TZ=utc ts-node-dev --env-file=.env src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maemaemae3/discord-yomiagekun.git"
+  },
+  "author": "tempe",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/maemaemae3/discord-yomiagekun/issues"
+  },
+  "homepage": "https://github.com/maemaemae3/discord-yomiagekun#readme",
+  "dependencies": {
+    "@discordjs/voice": "^0.16.0",
+    "axios": "^1.6.1",
+    "discord.js": "^14.13.0",
+    "ffmpeg-static": "^5.2.0",
+    "sodium": "^3.0.2",
+    "wanakana": "^5.3.1"
+  },
+  "devDependencies": {
+    "@tsconfig/strictest": "^2.0.2",
+    "@types/node": "^20.8.4",
+    "@typescript-eslint/eslint-plugin": "^5.33.1",
+    "@typescript-eslint/parser": "^5.33.1",
+    "eslint": "^8.22.0",
+    "eslint-config-prettier": "^8.5.0",
+    "prettier": "^2.7.1",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.2.2"
+  }
+}
